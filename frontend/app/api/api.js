@@ -2,7 +2,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "http://localhost:4500/api", // backend prefix இருந்தா இதை use பண்ணு
+  baseURL: "https://briefcasse.onrender.com/api", // backend prefix இருந்தா இதை use பண்ணு
   withCredentials: true,
   timeout: 60000,
 });
